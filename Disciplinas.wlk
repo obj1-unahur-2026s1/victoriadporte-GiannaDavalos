@@ -1,9 +1,21 @@
-object pepita {
-  var energy = 100
+// DISCIPLINAS //
 
-  method energy() = energy
+object tenis {
+  var cantidadHinchas =5
 
-  method fly(minutes) {
-    energy = energy - minutes * 3
+  method presupuestoBase(){
+    return 200 + (3 * cantidadHinchas)
   }
 }
+
+object judo {
+  var medallasHistoricas = 3
+
+  method presupuestoBase(){
+    return 160 * medallasHistoricas
+  }
+}
+
+ object hockey {
+   method presupuestoBase() = 500 
+ }
