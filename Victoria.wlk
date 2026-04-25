@@ -1,12 +1,12 @@
 // VICTORIA //
 
 object victoria {
-    var property edad   = 25
-    var property altura = 150
-    var property cantidadEntrenadores = 4
-    
-    var disciplina = judo //objeto tenis/ judo
+    var  edad   = 25
+    var  altura = 150
+    var  cantidadEntrenadores = 0
+    var disciplina = judo  //objeto tenis/ judo
     var elemento =  trajeJudo // objeto raqueta/ traje
+
     var valorEntrenadorComite = 500
 
     method entrenarCon( unDeporte , unElemento 
@@ -15,6 +15,14 @@ object victoria {
         elemento = unElemento
         altura = nuevaAltura
         cantidadEntrenadores = nuevosEntrenadores
+    }
+
+    method edad(){
+        return edad
+    }
+
+    method altura(){
+        return altura
     }
 
     method presupuestoPropio() {
