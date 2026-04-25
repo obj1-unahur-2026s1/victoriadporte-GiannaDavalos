@@ -1,8 +1,8 @@
 // DISCIPLINAS //
 
 object tenis {
-  var cantidadHinchas =5
-
+  var cantidadHinchas = 5
+  
   method presupuestoBase(){
     return 200 + (3 * cantidadHinchas)
   }

@@ -6,4 +6,7 @@ describe "group of tests for pepita" {
     assert.equals(100, pepita.energy())
   }
 
+test "victoria se parece a otro deportista" {
+  assert.equals(150, victoria.altura())
+}
 }

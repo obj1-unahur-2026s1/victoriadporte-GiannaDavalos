@@ -1,12 +1,12 @@
 // VICTORIA //
 
 object victoria {
-    var  edad   = 25
-    var  altura = 150
-    var  cantidadEntrenadores = 0
+    var property edad   = 25
+    var property altura = 150
+    var property cantidadEntrenadores = 0
+
     var disciplina = judo  //objeto tenis/ judo
     var elemento =  trajeJudo // objeto raqueta/ traje
-
     var valorEntrenadorComite = 500
 
     method entrenarCon( unDeporte , unElemento 
@@ -20,7 +20,7 @@ object victoria {
     method edad(){
         return edad
     }
-
+    
     method altura(){
         return altura
     }
